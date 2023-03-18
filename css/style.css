@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/** 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+
+**/
+
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #422962;
+    --tertiary-color: #26bc5d;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home-section{
+
+max-width: 100%;
+
+height: 100vh;
+}
+
+
+
+/** ---------------------NAVIGATION BAR CSS STYLE STARTS FROM HERE---------------------**/
+
+.nav{
+    box-shadow: 0px 0px 8px 1px #1d1d1d73;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    background-color: var(
+    --primary-color);
+}
+/** ---LOGO CSS STYLE STARTS FROM HERE-----------------**/
+.logo{
+    display: flex;
+    max-width: 50%;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo a{
+    position: relative;
+    left: 13px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo a img{
+    position: relative;
+    width: 46px;
+    height: 46px;
+}
+
+.logo a h1{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--secondary-color);
+    padding-left: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+/** ---LOGO CSS STYLE ENDS FROM HERE-----------------**/
+
+.nav-bar{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.nav-bar ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li{
+    height: 100%;
+    padding: 0px 16px 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.nav-bar ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 25px;
+    border: 1.5px solid transparent;
+    border-radius: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 700;
+}
+
+.nav-bar ul li a:hover{
+    background-color: var(--secondary-color);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 25px;
+    border: 1.5px solid transparent;
+    border-radius: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 700;
+    transition-duration: 500ms;
+}
+
+
+/** ----NAVIGATION CUSTOM BUTTON CSS STYLE STARTS FROM HERE------------**/
+.nav-btn1{
+
+}
+
+.nav-btn2{
+
+}
+
+.nav-btn3{
+
+}
+
+.nav-btn4{
+
+}
+/** -----NAVIGATION CUSTOM BUTTON CSS STYLE ENDS FROM HERE-------------**/
+
+/** ---------------------NAVIGATION BAR CSS STYLE ENDS FROM HERE---------------------**/
+
+.display{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: var(--primary-color);
+}
+
+
+.vertical-line{
+    position: relative;
+    left: 88px;
+    top: 143px;
+    width: 4.5px;
+    height: 275px;
+    background-color: var(--secondary-color);
+}
+
+.welcomeText{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 60%;
+    flex-basis: 60%;
+}
+
+.welcomeText .banner{
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.welcomeText .banner .text1{
+    max-width: 100%;
+}
+
+.welcomeText .banner .text1 h1{
+    margin: 0;
+    display: inline-block;
+    margin-left: auto !important;
+    color: var(--secondary-color);
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.welcomeText .banner .text2{
+    max-width: 86%;
+    margin-right: auto;
+    line-height: 35px;
+}
+
+.welcomeText .banner .text2 h2{
+    padding-top: 20px;
+    margin: 0;
+    color: var(--secondary-color);
+    max-width: 100%;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.welcomePic{
+    display: flex;
+    max-width: 40%;
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.welcomePic img{
+    top: 29.5px;
+    position: relative;
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+.bio-section{
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.bio-section .headline{
+
+max-width: 100%;
+
+height: 17%;
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.bio-section .headline h1{
+    color: var(--secondary-color);
+    font-size: 46px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 182px;
+    top: -8px;
+}
+
+.underline{
+    background-color: var(--secondary-color);
+    width: 340px;
+    height: 4.5px;
+    position: relative;
+    top: 27px;
+    right: 26px;
+    border-radius: 6px;
+}
+
+.bio{
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    border-radius: 7px;
+    box-shadow: 0 0 9px 4.5px #4229626e;
+}
